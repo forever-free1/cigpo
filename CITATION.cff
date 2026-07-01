@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use CIGPO in your research, please cite the paper below."
+title: "CIGPO: Contextual Information-Gain Policy Optimization for Multi-Turn Evidence-Reading LLM Agents"
+authors:
+  - family-names: Dou
+    given-names: Hao
+    affiliation: "Harbin Institute of Technology"
+doi: 10.5281/zenodo.21097914
+url: "https://github.com/forever-free1/cigpo"
+abstract: "Training multi-turn evidence-reading agents with outcome-only reinforcement learning is unstable because intermediate turns receive little direct credit. CIGPO (Contextual Information-Gain Policy Optimization) injects variance through per-turn information-gain rewards, separate group normalization, and a curriculum schedule — preventing the zero-advantage deadlock that causes GRPO to collapse."
+keywords:
+  - "reinforcement learning"
+  - "large language models"
+  - "multi-turn agents"
+  - "information gain"
+  - "GRPO"
+  - "evidence reading"
+license: MIT
+version: 0.1.0
+date-released: "2026-07-01"
